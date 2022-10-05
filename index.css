@@ -1,0 +1,118 @@
+
+
+.btn{
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+#title{
+    background-image:url(images/bg-hero-desktop.svg);
+    background-size: 100% 100%;
+    object-fit: cover;
+    padding: 4%;
+}
+
+
+.title-container{
+    margin-top: 5%;
+}
+
+.title-column-1 .column-1-content{
+    margin-top: 10%
+}
+
+
+.title-column-1 .column-1-content button{
+    background-color: palevioletred;
+    border: none;
+
+}
+
+.title-column-2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* features */
+
+#features{
+    padding: 5%;
+}
+
+.features-container{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+
+}
+
+
+.features-column{
+    padding: 3%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-img{
+    width: 50%;
+}
+
+/* info */
+
+#info {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    
+}
+
+
+.info-container .col{
+    text-align: left;
+    padding: 6%;
+    font-weight: 600;
+    color: white;
+}
+
+.info-container h1{
+    color: white;
+    text-align: left;
+    padding-left: 1%;
+}
+
+.info-container p{
+    margin-top: 30px;
+    color: white;
+
+}
+
+
+@media screen and (max-width: 992px){
+
+    body{
+        text-align: center;
+    }
+    .title-img{
+        margin-top: 20px;
+    }
+
+    .info-container h1{
+        padding: 0%;
+        text-align: center;
+        
+    }
+}
